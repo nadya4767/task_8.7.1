@@ -1,0 +1,84 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-footer .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/*body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #f8f9fa;
+    color: #343a40;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}*/
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-window {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #fff;
+}
