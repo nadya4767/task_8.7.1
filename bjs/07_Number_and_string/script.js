@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Обработчик для кнопки "Заново"
     document.getElementById('btn_restart').addEventListener('click', () => {
         // Используем prompt для ввода минимального и максимального значений
-        const minValue = parseInt(prompt("Введите минимальное значение:", "1")) || 1;
+        const minValue = parseInt(prompt("Введите минимальное значение:", "0")) || 0;
         const maxValue = parseInt(prompt("Введите максимальное значение:", "100")) || 100;
 
         // Ограничиваем диапазон
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         updateGuessText();
     });
 
-    // Обработчики для кнопок "Больше", "Меньше" и "Угадал"
+    // Обработчики для кнопок "Больше", "Меньше"
     document.getElementById('btn_more').addEventListener('click', () => {
         min = guess + 1;
         guess = Math.floor((min + max) / 2);

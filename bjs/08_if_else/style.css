@@ -2,3 +2,36 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+body {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .game-card {
+    margin-top: 50px;
+  }
+
+  .card {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 20px;
+  }
+
+  .card-header, .card-footer {
+    background-color: #22036b;
+    color: white;
+  }
+
+  .btn-group .btn {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .btn-success {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .collapse-card {
+    margin-top: 50px;
+  }
