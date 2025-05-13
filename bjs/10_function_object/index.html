@@ -17,15 +17,21 @@
                     <p class="m-0">Окно результатов генерации</p>
                 </div>
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col">
-                            <h3 class="card-title"><span id="surnameOutput">Генерация фамилии</span></h3>
-                            <h4>Имя: <span id="firstNameOutput">Иван</span></h4>
-                            <p>
-                                <span id="genderOutput">Генерация пола</span>
-                                <span>, </span>
-                                <span id="birthYearOutput">Генерация года рождения</span>
-                            </p>
+                     <div class="row">
+                         <div class="col">
+                         <h3 class="card-title"><span id="surnameOutput">Генерация фамилии</span></h3>
+                         <h4><span id="firstNameOutput">Иван</span></h4>
+                         <h5><span id="patronymicOutput">Генерация отчества</span><br></h5>
+                         <p>Дата рождения: <span id="birthDateOutput">Генерация даты рождения</span><br>
+                         Профессия: <span id="professionOutput">Генерация профессии</span><br>              
+                         <span id="genderOutput">Генерация пола</span>
+                         <span>, </span>
+                         <span id="birthYearOutput">Генерация года рождения</span>
+                         </p>
+                         <!-- Вставляем кнопку генерации -->
+                         <button class="generate-button mt-3" onclick="generatePerson()">Сгенерировать</button>
+                         <!-- Вставляем кнопку очистки -->
+                            <button class="clear-button mt-3" onclick="clearGeneratedData()">Очистить</button>
                         </div>
                     </div>
                 </div>
